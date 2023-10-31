@@ -1,0 +1,26 @@
+.green_btn {
+	border: none;
+	outline: none;
+	padding: 12px 12px;
+	background-color: rgb(32, 129, 203);
+	color: aliceblue;
+	border-radius: 4px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin: 50px;
+	width: 20%;
+}
+
+.main_container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.otp_input{
+	outline: none;
+	border-radius: 20px;
+}
