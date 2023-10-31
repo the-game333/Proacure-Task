@@ -15,7 +15,7 @@ app.use(cors())
 app.use(bodyParser.json());
 mongoose.set("strictQuery", false);
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://Abhay:QsOQZsGApE6IfffM@cluster0.oobjwff.mongodb.net/otp?retryWrites=true&w=majority', {
+mongoose.connect('yourmongoURL', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
